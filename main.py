@@ -2,8 +2,7 @@ import telebot
 from decouple import config
 
 
-API_KEY = config('TOKEN')
-
+API_KEY = config('API_KEY')
 bot = telebot.TeleBot(API_KEY)
 
 
